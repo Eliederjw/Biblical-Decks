@@ -1,0 +1,209 @@
+[gd_scene load_steps=119 format=2]
+
+[ext_resource path="res://Font/Chromia.otf" type="DynamicFontData" id=1]
+[ext_resource path="res://Decks/Deck.gd" type="Script" id=2]
+[ext_resource path="res://Time_Cards/015 Nascimento de Noe.jpg" type="Texture" id=3]
+[ext_resource path="res://Time_Cards/016 Morte de Metusalem.jpg" type="Texture" id=4]
+[ext_resource path="res://Time_Cards/017 Nascimento de Sem.jpg" type="Texture" id=5]
+[ext_resource path="res://Time_Cards/018 Nascimento de Arpaxade.jpg" type="Texture" id=6]
+[ext_resource path="res://Time_Cards/019 Periodo de 430 anos.jpg" type="Texture" id=7]
+[ext_resource path="res://Time_Cards/020 Aflicao de 400 anos.jpg" type="Texture" id=8]
+[ext_resource path="res://Time_Cards/021 Isaque e Rebeca.jpg" type="Texture" id=9]
+[ext_resource path="res://Time_Cards/022 Jose Primeiro Minsitro.jpg" type="Texture" id=10]
+[ext_resource path="res://Time_Cards/023 Jaco entra no Egito.jpg" type="Texture" id=11]
+[ext_resource path="res://Time_Cards/024 Pacto em Moabe.jpg" type="Texture" id=12]
+[ext_resource path="res://Time_Cards/025 450 anos .jpg" type="Texture" id=13]
+[ext_resource path="res://Time_Cards/026 Sacerdocio Aronico.jpg" type="Texture" id=14]
+[ext_resource path="res://Time_Cards/027 400 anos.jpg" type="Texture" id=15]
+[ext_resource path="res://Time_Cards/028 Escrita da Biblia.jpg" type="Texture" id=16]
+[ext_resource path="res://Time_Cards/029 Exodo e Levitico.jpg" type="Texture" id=17]
+[ext_resource path="res://Time_Cards/030 Israel em Canaa.jpg" type="Texture" id=18]
+[ext_resource path="res://Time_Cards/031 Saul rei.jpg" type="Texture" id=19]
+[ext_resource path="res://Time_Cards/002 Tranferencia de Enoque.jpg" type="Texture" id=20]
+[ext_resource path="res://Time_Cards/033 Davi rei de Israel.jpg" type="Texture" id=21]
+[ext_resource path="res://Time_Cards/004 Diluvio.jpg" type="Texture" id=22]
+[ext_resource path="res://Time_Cards/005 Pacto do Diluvio.jpg" type="Texture" id=23]
+[ext_resource path="res://Time_Cards/007 Esau e Jaco.jpg" type="Texture" id=24]
+[ext_resource path="res://Time_Cards/037 Reino Dividido.jpg" type="Texture" id=25]
+[ext_resource path="res://Time_Cards/009 Libertacao de Israel.jpg" type="Texture" id=26]
+[ext_resource path="res://Time_Cards/011 Construcao do Tabernaculo.jpg" type="Texture" id=27]
+[ext_resource path="res://Time_Cards/040 Nabucodonosor rei.jpg" type="Texture" id=28]
+[ext_resource path="res://Time_Cards/001 Criacao de Adao.jpg" type="Texture" id=29]
+[ext_resource path="res://Time_Cards/003 Declaracao de Deus.jpg" type="Texture" id=30]
+[ext_resource path="res://Time_Cards/008 Nascimento de Moises.jpg" type="Texture" id=31]
+[ext_resource path="res://Time_Cards/044 Decreto de Ciro.jpg" type="Texture" id=32]
+[ext_resource path="res://Time_Cards/032 Davi rei de Juda.jpg" type="Texture" id=33]
+[ext_resource path="res://Time_Cards/046 Alicerce do templo de Zorobabel.jpg" type="Texture" id=34]
+[ext_resource path="res://Time_Cards/035 Tempo de desigando das nacoes.jpg" type="Texture" id=35]
+[ext_resource path="res://Time_Cards/048 Zorobabel termina o templo.jpg" type="Texture" id=36]
+[ext_resource path="res://Time_Cards/038 Sisaque invade Juda.jpg" type="Texture" id=37]
+[ext_resource path="res://Who_Cards/001 Caim.jpg" type="Texture" id=38]
+[ext_resource path="res://Time_Cards/039 Ninive.jpg" type="Texture" id=39]
+[ext_resource path="res://Who_Cards/003 Enoque.jpg" type="Texture" id=40]
+[ext_resource path="res://Who_Cards/002 Abel.jpg" type="Texture" id=41]
+[ext_resource path="res://Who_Cards/005 Jafe.jpg" type="Texture" id=42]
+[ext_resource path="res://Who_Cards/004 Nefilim.jpg" type="Texture" id=43]
+[ext_resource path="res://Who_Cards/006 Sem.jpg" type="Texture" id=44]
+[ext_resource path="res://Who_Cards/007 Ca.jpg" type="Texture" id=45]
+[ext_resource path="res://Who_Cards/008 Noe.jpg" type="Texture" id=46]
+[ext_resource path="res://Who_Cards/009 Adao.jpg" type="Texture" id=47]
+[ext_resource path="res://Who_Cards/010 Eva.jpg" type="Texture" id=48]
+[ext_resource path="res://Who_Cards/011 Miria.jpg" type="Texture" id=49]
+[ext_resource path="res://Who_Cards/012 Jose.jpg" type="Texture" id=50]
+[ext_resource path="res://Who_Cards/013 Jo.jpg" type="Texture" id=51]
+[ext_resource path="res://Who_Cards/014 Juda.jpg" type="Texture" id=52]
+[ext_resource path="res://Who_Cards/015 Moises.jpg" type="Texture" id=53]
+[ext_resource path="res://Who_Cards/016 Arao.jpg" type="Texture" id=54]
+[ext_resource path="res://Who_Cards/017 Agar.jpg" type="Texture" id=55]
+[ext_resource path="res://Who_Cards/018 Abraao.jpg" type="Texture" id=56]
+[ext_resource path="res://Who_Cards/019 Lo.jpg" type="Texture" id=57]
+[ext_resource path="res://Who_Cards/020 Jaco.jpg" type="Texture" id=58]
+[ext_resource path="res://Who_Cards/021 Jael.jpg" type="Texture" id=59]
+[ext_resource path="res://Who_Cards/022 Rute.jpg" type="Texture" id=60]
+[ext_resource path="res://Who_Cards/023 Noemi.jpg" type="Texture" id=61]
+[ext_resource path="res://Who_Cards/024 Gideao.jpg" type="Texture" id=62]
+[ext_resource path="res://Who_Cards/025 Jefte.jpg" type="Texture" id=63]
+[ext_resource path="res://Who_Cards/026 Sansao.jpg" type="Texture" id=64]
+[ext_resource path="res://Time_Cards/014 Morte de Adao.jpg" type="Texture" id=65]
+[ext_resource path="res://Time_Cards/034 Salomao.jpg" type="Texture" id=66]
+[ext_resource path="res://Time_Cards/006 Sodoma e Gomorra.jpg" type="Texture" id=67]
+[ext_resource path="res://Time_Cards/036 Construcao do templo.jpg" type="Texture" id=68]
+[ext_resource path="res://Time_Cards/041 Templo e Jerusalem destruidos.jpg" type="Texture" id=69]
+[ext_resource path="res://Time_Cards/042 Babilonia cai.jpg" type="Texture" id=70]
+[ext_resource path="res://Time_Cards/010 Pacto do Sinai.jpg" type="Texture" id=71]
+[ext_resource path="res://Time_Cards/013 Batismo de Jesus.jpg" type="Texture" id=72]
+[ext_resource path="res://Who_Cards/CardBack.png" type="Texture" id=73]
+[ext_resource path="res://Time_Cards/012 Nascimento de Jesus.jpg" type="Texture" id=74]
+[ext_resource path="res://Time_Cards/043 Medo Persia potencia mundial.jpg" type="Texture" id=75]
+[ext_resource path="res://Who_Cards/027 Balaao.jpg" type="Texture" id=76]
+[ext_resource path="res://Who_Cards/028 Josue.jpg" type="Texture" id=77]
+[ext_resource path="res://Who_Cards/029 Raabe.jpg" type="Texture" id=78]
+[ext_resource path="res://Who_Cards/030 Debora.jpg" type="Texture" id=79]
+[ext_resource path="res://Who_Cards/031 Bate-Seba.jpg" type="Texture" id=80]
+[ext_resource path="res://Who_Cards/034 Jonata.jpg" type="Texture" id=81]
+[ext_resource path="res://Who_Cards/035 Golias.jpg" type="Texture" id=82]
+[ext_resource path="res://Who_Cards/036 Abisague.jpg" type="Texture" id=83]
+[ext_resource path="res://Who_Cards/037 Joabe.jpg" type="Texture" id=84]
+[ext_resource path="res://Who_Cards/038 Absalao.jpg" type="Texture" id=85]
+[ext_resource path="res://Who_Cards/039 Mical.jpg" type="Texture" id=86]
+[ext_resource path="res://Who_Cards/040 Abigail.jpg" type="Texture" id=87]
+[ext_resource path="res://Who_Cards/032 Davi.jpg" type="Texture" id=88]
+[ext_resource path="res://Who_Cards/033 Naama.jpg" type="Texture" id=89]
+[ext_resource path="res://Time_Cards/045 Desolacao de 70 anos.jpg" type="Texture" id=90]
+[ext_resource path="res://Time_Cards/047 Construcao do templo proibida.jpg" type="Texture" id=91]
+[ext_resource path="res://Time_Cards/049 Retornam a Jerusalem.jpg" type="Texture" id=92]
+[ext_resource path="res://Time_Cards/050 Neemias Muralhas de Jerusalem.jpg" type="Texture" id=93]
+[ext_resource path="res://Time_Cards/051 70 semanas comecam.jpg" type="Texture" id=94]
+[ext_resource path="res://Time_Cards/052 Reconstrucao de Jerusalem.jpg" type="Texture" id=95]
+[ext_resource path="res://Time_Cards/053 Joao  preso.jpg" type="Texture" id=96]
+[ext_resource path="res://Time_Cards/054 12 Apostolos.jpg" type="Texture" id=97]
+[ext_resource path="res://Time_Cards/055 Transfiguracao.jpg" type="Texture" id=98]
+[ext_resource path="res://Time_Cards/056 Lazaro ressucitado.jpg" type="Texture" id=99]
+[ext_resource path="res://Time_Cards/057 Entrada de Jesus em Jerusalem.jpg" type="Texture" id=100]
+[ext_resource path="res://Time_Cards/058 Jesus limpa o templo.jpg" type="Texture" id=101]
+[ext_resource path="res://Time_Cards/059 Moedas da viuva.jpg" type="Texture" id=102]
+[ext_resource path="res://Time_Cards/060 Refeicao da Celebracao.jpg" type="Texture" id=103]
+[ext_resource path="res://Time_Cards/061 Morte de Jesus.jpg" type="Texture" id=104]
+[ext_resource path="res://Time_Cards/063 Ascensao de Jesus.jpg" type="Texture" id=105]
+[ext_resource path="res://Time_Cards/062 Ressurreicao de Jesus.jpg" type="Texture" id=106]
+[ext_resource path="res://Time_Cards/064 Espirito Santo.jpg" type="Texture" id=107]
+[ext_resource path="res://Time_Cards/065 Fim das 70 semanas.jpg" type="Texture" id=108]
+[ext_resource path="res://Time_Cards/066 Jesus Entronizado.jpg" type="Texture" id=109]
+[ext_resource path="res://Time_Cards/067 Testemunhas de Jeova.jpg" type="Texture" id=110]
+[ext_resource path="res://Time_Cards/068 Grupo de estudo biblico.jpg" type="Texture" id=111]
+[ext_resource path="res://Time_Cards/069 Torre de Vigia de Siao.jpg" type="Texture" id=112]
+[ext_resource path="res://Time_Cards/070 Anunciai.jpg" type="Texture" id=113]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 38 ), ExtResource( 41 ), ExtResource( 40 ), ExtResource( 43 ), ExtResource( 42 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 76 ), ExtResource( 77 ), ExtResource( 78 ), ExtResource( 79 ), ExtResource( 80 ), ExtResource( 88 ), ExtResource( 89 ), ExtResource( 81 ), ExtResource( 82 ), ExtResource( 83 ), ExtResource( 84 ), ExtResource( 85 ), ExtResource( 86 ), ExtResource( 87 ) ],
+"loop": true,
+"name": "Who_Deck",
+"speed": 0.0
+}, {
+"frames": [ ExtResource( 73 ) ],
+"loop": true,
+"name": "Back_Card",
+"speed": 0.0
+}, {
+"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 30 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 67 ), ExtResource( 24 ), ExtResource( 31 ), ExtResource( 26 ), ExtResource( 71 ), ExtResource( 27 ), ExtResource( 74 ), ExtResource( 72 ), ExtResource( 65 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 33 ), ExtResource( 21 ), ExtResource( 66 ), ExtResource( 35 ), ExtResource( 68 ), ExtResource( 25 ), ExtResource( 37 ), ExtResource( 39 ), ExtResource( 28 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 75 ), ExtResource( 32 ), ExtResource( 90 ), ExtResource( 34 ), ExtResource( 91 ), ExtResource( 36 ), ExtResource( 92 ), ExtResource( 93 ), ExtResource( 94 ), ExtResource( 95 ), ExtResource( 96 ), ExtResource( 97 ), ExtResource( 98 ), ExtResource( 99 ), ExtResource( 100 ), ExtResource( 101 ), ExtResource( 102 ), ExtResource( 104 ), ExtResource( 106 ), ExtResource( 105 ), ExtResource( 107 ), ExtResource( 108 ), ExtResource( 109 ), ExtResource( 110 ), ExtResource( 111 ), ExtResource( 112 ), ExtResource( 113 ), ExtResource( 103 ) ],
+"loop": true,
+"name": "Time_Deck",
+"speed": 0.0
+} ]
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.129412, 0.505882, 0.0862745, 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 40
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.101961, 0.168627, 0.435294, 1 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 40
+font_data = ExtResource( 1 )
+
+[node name="Deck" type="Control" groups=[
+"Deck",
+]]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+size_flags_horizontal = 7
+size_flags_vertical = 7
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Deck_Sprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "Back_Card"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -336.5
+margin_top = 636.755
+margin_right = 336.5
+margin_bottom = 716.755
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="bttTime" type="Button" parent="HBoxContainer"]
+margin_right = 351.0
+margin_bottom = 80.0
+focus_mode = 0
+size_flags_horizontal = 15
+size_flags_vertical = 15
+custom_styles/normal = SubResource( 2 )
+custom_fonts/font = SubResource( 3 )
+enabled_focus_mode = 0
+text = "Tempos e Épocas"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="bttWho" type="Button" parent="HBoxContainer"]
+margin_left = 355.0
+margin_right = 673.0
+margin_bottom = 80.0
+focus_mode = 0
+size_flags_horizontal = 15
+size_flags_vertical = 15
+custom_styles/normal = SubResource( 4 )
+custom_fonts/font = SubResource( 5 )
+enabled_focus_mode = 0
+text = "Quem sou eu?"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="HBoxContainer/bttTime" to="." method="_on_bttTime_pressed"]
+[connection signal="pressed" from="HBoxContainer/bttWho" to="." method="_on_bttWho_pressed"]
